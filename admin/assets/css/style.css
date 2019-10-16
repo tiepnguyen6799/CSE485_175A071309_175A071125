@@ -1,0 +1,4 @@
+.input-group {
+  width: 300px;
+  flex-wrap: nowrap !important;
+}
