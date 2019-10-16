@@ -117,7 +117,6 @@
 .home .slide .line-slide{
   bottom: 0;
   position: absolute;
-  background: rgba(0,0,0,0.45);
   width: 100%;
   padding: 30px 20px;
 }
@@ -175,8 +174,7 @@
 .home .slide .collapse-handmade .sociaty li a{
     width: 100%;
     color: #fff;
-    background-color: #42719f;
-    
+    background-color: #42719f;    
 }
 .home .slide .collapse-handmade li{
   list-style: none;
@@ -193,10 +191,12 @@
 .home .slide .collapse-handmade .item ul li h5>a{
   color: white;
   font-weight: bold;
+  font-size: 18px;
 }
 .home .slide .collapse-handmade .item ul li a{
   color: #d2d2d2;
   opacity: 0.8;
+  font-size: 13px;
 }    
 .home .slide .collapse-handmade .item ul li:hover a,.home .slide .collapse-handmade .item ul li:hover i{
   color: #a99149;
@@ -458,9 +458,10 @@
 }
 .home .wrapper_chatbox .chatbox{
   background-color: #0f4f8f;
-  width: 400px;
+  width: 300px;
   padding: 6px 10px;
   color: white;
+  border-radius: 8px 8px 0px 0px;
 }
 .home .wrapper_chatbox{
   display: flex;

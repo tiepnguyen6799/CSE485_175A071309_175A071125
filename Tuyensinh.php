@@ -10,7 +10,6 @@
      <link rel="stylesheet" href="css/tuyensinh.css">
     
 
-    <link rel="stylesheet" type="text/css" href="css/myCss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <link rel="shortcut icon" href="http://ntt.edu.vn/web/favicon.ico" type="image/x-icon">
 

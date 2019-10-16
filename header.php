@@ -24,9 +24,9 @@
 					
 				</div>
 				<div class="col-md-5 ">
-					<a class="col" href="">SINH VIÊN</a>
-					<a class="col" href="">GIẢNG VIÊN</a>
-					<a class="col" href="">ĐÀO TẠO QUỐC TẾ</a>
+					<a class="col" href="Sinhvien.php">SINH VIÊN</a>
+					<a class="col" href="Giangvien.php">GIẢNG VIÊN</a>
+					<a class="col" href="http://niie.edu.vn/vi/trang-chinh/">ĐÀO TẠO QUỐC TẾ</a>
 				</div>
 				<div class="col-md-4 input d-flex justify-content-end">
 					<form>
@@ -75,7 +75,9 @@
 				<!-- end head-responsive -->
 				<div class="wrapper">
 					<nav class="navbar navbar-expand-lg">
-					  	<img src="image/logo_ntt.png">
+						<a href="index.php">
+						  <img src="image/logo_ntt.png">
+						</a>
 					  <button style="outline: none;" class="navbar-toggler" type="button" >
 					    <i id="showCollapse2" style="border: 1px solid #d0d0d0;padding: 10px;" class="fa fa-bars c-blue-a5"></i>
 					  </button>
@@ -127,13 +129,16 @@
 						</div>
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img class="d-block w-100" src="image/slide.jpg" alt="First slide">
+						  <img class="d-block w-100" src="image/slide.jpg" alt="First slide">
+						  <h3 class="text-slide" style="height: 100px;width: 100%;background-color: rgba(0,0,0,0.45); color: white;position: absolute;bottom: 0px;margin-bottom: 0px;padding-top:20px;">Chính sách học bổng trường đại học Nguyễn Tất Thành năm 2019</h3>
 					    </div>
 					    <div class="carousel-item">
-					      <img class="d-block w-100" src="image/slide2.jpg" alt="Second slide">
+						  <img class="d-block w-100" src="image/slide2.jpg" alt="Second slide">
+						  <h3 class="text-slide" style="height: 100px;width: 100%;background-color: rgba(0,0,0,0.45); color: white;position: absolute;bottom: 0px;margin-bottom: 0px;padding-top:20px;">Chính sách học bổng trường đại học Nguyễn Tất Thành năm 2019</h3>
 					    </div>
 					    <div class="carousel-item">
-					      <img class="d-block w-100" src="image/slide3.jpg" alt="Third slide">
+						  <img class="d-block w-100" src="image/slide3.jpg" alt="Third slide">
+						  <h3 class="text-slide" style="height: 100px;width: 100%;background-color: rgba(0,0,0,0.45); color: white;position: absolute;bottom: 0px;margin-bottom: 0px;padding-top:20px;">Chính sách học bổng trường đại học Nguyễn Tất Thành năm 2019</h3>
 					    </div>
 					  </div>
 					  
@@ -143,7 +148,7 @@
 					  				<div class="col-12 col-md-6 col-lg-4 item">
 					  				
 						  				<ul>
-						  					<li><h5><a href="">Giới thiệu chung </a></h5></li>
+						  					<li><h5><a href="Gioithieu.php">Giới thiệu chung </a></h5></li>
 						  					<li>
 						  						<i class="fa fa-angle-double-right"></i>
 						  						<a href=""> Giới thiệu chung </a> 	
@@ -173,7 +178,7 @@
 						  			<div class="col-12 col-md-6 col-lg-4 item">
 						  				
 						  				<ul>
-						  					<li><h5><a href="">Tuyển sinh</a>  </h5></li>
+						  					<li><h5><a href="Tuyensinh.php">Tuyển sinh</a>  </h5></li>
 						  					<li>
 						  						<i class="fa fa-angle-double-right"></i>
 						  						<a href=""> Các bậc đào tạo </a>	
@@ -199,7 +204,7 @@
 						  			<div class="col-12 col-md-6 col-lg-4 item">
 						  				
 						  				<ul>
-						  					<li><h5><a href="">Đào tạo</a>  </h5></li>
+						  					<li><h5><a href="Daotao.php">Đào tạo</a>  </h5></li>
 						  					<li>
 						  						<i class="fa fa-angle-double-right"></i>
 						  						<a href=""> Khối Khoa học sức khoẻ </a>
@@ -229,7 +234,7 @@
 						  			<div class="col-12 col-md-6 col-lg-4 item">
 					  				
 						  				<ul>
-						  					<li><h5><a href="">Hợp tác doanh nghiệp</a>  </h5></li>
+						  					<li><h5><a href="Hoptacdoanhnghiep.php">Hợp tác doanh nghiệp</a>  </h5></li>
 						  					<li>
 						  						<i class="fa fa-angle-double-right"></i>
 						  						<a href=""> Giới thiệu việc làm </a>
@@ -256,7 +261,7 @@
 						  			<div class="col-12 col-md-6 col-md-4 item">
 						  				
 						  				<ul>
-						  					<li><h5><a href="">Nghiên cứu</a>  </h5></li>
+						  					<li><h5><a href="Nghiencuu.php">Nghiên cứu</a>  </h5></li>
 						  					<li>
 						  						<i class="fa fa-angle-double-right"></i>
 						  						<a href=""> Hoạt động khoa học công nghệ </a>
@@ -276,7 +281,7 @@
 					  			
 					  			<div class="col-md-6 col-lg-3 sociaty">
 					  				<ul>
-					  					<li><a href=""><i class="fab fa-facebook-square"></i>Facebook</a></li>
+					  					<li><a href="http://facbook.com/daihocnguyentatthanh"><i class="fab fa-facebook-square"></i>Facebook</a></li>
 					  					<li><a href=""><i class="fab fa-google-plus-g"></i>Google Plus</a></li>
 					  					<li><a href=""><i class="fab fa-youtube"></i>Youtube</a></li>
 					  					<li><a href=""><i class="fas fa-envelope"></i>E-mail</a></li>
@@ -293,7 +298,6 @@
 					  	</div>
 
 						  <div class="line-slide">
-							<h3>Chính sách học bổng của trường đại học Nguyễn Tất Thành</h3>
 							<div class="control-button">
 								<div class="right">
 									<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
