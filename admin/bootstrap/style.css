@@ -1,0 +1,270 @@
+.progress-bar {
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+}
+
+#body_login {
+    background: url(../hinhanh/bg_login.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-form {
+    margin-top: 60px;
+}
+
+.login-form .canh_bao{
+    padding: 7px 15px;
+    background:#ff6666;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.wrapper{
+    margin: 0;
+}
+
+.help-block{
+    color: #ff3333;
+}
+
+.content {
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content-wrapper{
+    margin-left: 0;
+}
+
+.content-wrapper{
+    min-height: 100%;
+    background-color: #ecf0f5;
+    z-index: 800;
+}
+
+.content-header {
+    position: relative;
+    padding: 15px 15px 0 15px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #333;
+}
+
+.content-header > h1{
+    font-size: 24px;
+}
+
+.content-header > .breadcrumb{
+    position: relative;
+    margin-top: 5px;
+    top: 0;
+    right: 0;
+    float: none;
+    background: #d2d6de;
+}
+
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.box-tools {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.box-header.with-border {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.box-title {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+}
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #fff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.container > #box-list-course{
+    display: block;
+    position: relative;
+    margin-top: 50px;
+}
+
+.box.box-solid {
+    border-top: 0;
+}
+
+.box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+}
+
+.box-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/*css button*/
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: Source Sans Pro,Arial, sans-serif;
+}
+
+form[role=login] {
+    color: #5d5d5d;
+    background: #f2f2f2;
+    padding: 26px;
+    border-radius: 10px;
+}
+form[role=login] img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+form[role=login] input,
+form[role=login] button {
+    font-size: 18px;
+    margin: 16px 0;
+}
+form[role=login] > div {
+    text-align: center;
+}
+
+.form-links {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 50px;
+}
+.form-links a {
+    color: #fff;
+}
+.img-responsive{
+    background-color: #3d9991;
+    border-radius: 10px;
+}
+
+/*css model*/
+.modal {
+    background: rgba(0,0,0,0.3);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/*CSS INFO ACCOUNT*/
+.text-center {
+    text-align: center;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profile-username {
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.text-muted {
+    color: #777;
+}
+
+ul{
+    display: block;
+}
+
+.nav {
+    padding-left: 0;
+    list-style: none;
+}
+
+/*.nav-tabs {*/
+    /*border-bottom: 1px solid #ddd;*/
+/*}*/
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+/*.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {*/
+    /*color: #555;*/
+    /*cursor: default;*/
+    /*background-color: #fff;*/
+    /*border: 1px solid #ddd;*/
+    /*border-bottom-color: transparent;*/
+/*}*/
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.btn-primary {
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.table>tr>th, .table>tr>th, .table>tr>th, .table>tr>td, .table>tr>td, .table>tr>td {
+    border-top: 1px solid #f4f4f4;
+    padding: 8px;
+}

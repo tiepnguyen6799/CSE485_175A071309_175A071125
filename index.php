@@ -2,7 +2,6 @@
     include "header.php";
 
 ?>
-			
 			<div class="tintuc ">
 				<div class="wrapper">
 					<div class="row">
